@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("file images music.webp");
+    background-image: url("images music.jpg");
     background-attachment: fixed;
     background-size:contain;
     margin: 0;
@@ -126,5 +126,6 @@ ul {
 .song a:hover {
     text-decoration: underline;
 }
+
 
 
