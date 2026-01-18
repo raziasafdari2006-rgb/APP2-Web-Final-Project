@@ -159,7 +159,7 @@ footer {
 }
 
 
-/*mucic style.css*/
+mucic style.css
 .music .body {
     background-image: url("images/music.jpg");
     background-attachment: fixed;
@@ -670,4 +670,5 @@ button:hover{
   text-align: center;
   font-size: 14px;
   color: #555;
+
 }
