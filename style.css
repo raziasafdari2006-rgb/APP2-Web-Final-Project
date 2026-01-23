@@ -1,0 +1,802 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.page-home {
+    font-family:'Merienda', cursive;
+    background-image: url("images/blackpink1.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+/* HEADER */
+.header-container {
+    background-color: #050505;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-text {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+    color: #ff2d95;
+    background-color: #030303;
+}
+
+/* NAVIGATION */
+.nav-wrapper {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-wrapper ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-wrapper ul li {
+    line-height: 1.9;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.nav-wrapper ul li a {
+    color: #bd1267;
+    font-size: 18px;
+    font-family: 'Merienda', cursive;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-wrapper ul li a:hover {
+     
+    color: #ff2d95;
+}
+
+/* MAIN CONTENT */
+.main-container {
+
+    padding: 30px;
+    text-align: center;
+    color: #ff2d95;
+    font-size: 28px;
+}
+.hero-img {
+    
+   width: 80%;
+    max-width: 500px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 10px 15px rgba(204, 38, 38, 0.5);
+}
+
+/* INFORMATION LIST */
+.info-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.info-list li p {
+    color: #bd1267;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* ARTICLE GRID */
+.article-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 40px;
+    color: #aba4a8;
+    line-height: 1.9;
+}
+
+.article-item {
+    background-color: #0a0a0a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(253, 41, 3, 0.985);
+    opacity: 0.9;
+}
+
+.article-item p {
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Trade Winds", system-ui;
+    color: azure;
+    opacity: 1;
+}
+
+
+.story {
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 30px;
+    background-color: #030303;
+    box-shadow: 0 6px 20px red;
+    opacity: 0.9;
+}
+
+.story h2{
+    font-size: 28px;
+    color: #aa1e64;
+    margin-bottom: 20px;
+}
+
+ .story p {
+    font-size: 20px;
+    line-height: 2.1;
+    color: #fefcfc;
+}
+
+/* TITLE TEXT */
+.featured-title {
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    margin-top: 40px;
+    color: #a2115a;
+}
+
+/* FOOTER */
+.site-footer {
+    background: linear-gradient(black, #cd2378);
+    color: #070707;
+    text-align: center;
+    padding: 15px;
+    font-size: 33px;
+    margin-top: 40px;
+}
+.site-footer p{
+    font-size: 26px;
+    color: aliceblue;
+}
+
+/* MOBILE STYLES */
+@media (max-width: 768px) {
+    .nav-wrapper ul {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .article-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-img{
+        width: 100%;
+    }
+}
+
+
+
+/*music*/
+body.music-page {
+    background-image: url("images/music.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+/* ---------------- HERO ---------------- */
+.music-hero {
+    background: linear-gradient(rgb(26, 25, 25), #be397c);
+    text-align: center;
+    padding: 30px 15px;
+}
+.music-hero p{
+    color: #f9f9f9;
+}
+.music-hero h1 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-family: "Merienda", cursive;
+}
+
+/* ---------------- NAVBAR ---------------- */
+.main-navbar {
+    font-size: 20px;
+}
+
+.main-navbar ul li a {
+    line-height: 1.8;
+    margin-left: 20px;
+    color: #dc0694;
+    text-decoration: none;
+}
+
+/* ---------------- GRID ---------------- */
+.music-grid {
+    max-width: 900px;
+    margin: auto;
+    padding: 33px;
+    color: #fef8f8;
+}
+.main-heading {
+    color: #f9f9f9;
+    font-size: 38px;
+    text-align: center;
+    font-family: "Trade Winds", system-ui;
+}
+.main-heading p{
+    color: #b90769;
+}
+.music-grid p{
+    font-size: 27px;
+    color: #dc0692;
+}
+.video-card p{
+    color: #f9f9f9;
+    font-size: 20px;
+}
+
+.img-caption {
+    color: #e2dcdc;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.song-list {
+    line-height: 1.8;
+}
+
+/* ---------------- PERFORMANCE BOX ---------------- */
+.performance-box {
+    color: #d7026d;
+    font-size: 36px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 30px;
+}
+.performance-box p{
+    color: #dc0692;
+    font-size: 26px;
+}
+.performance-box img{
+    width: 450px;
+}
+/* ---------------- SONG CARDS ---------------- */
+.video-card,
+.image-song {
+    margin: 0 auto 25px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.video-card h3,
+.image-song h3 {
+    font-size: 36px;
+    color: #dc0694;
+}
+
+.video-card img,
+.image-song img {
+   width: 100%;
+   max-width: 450px;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+   border-radius: 15px;
+}
+
+.video-card img:hover,
+.image-song img:hover {
+    transform: scale(1.03);
+}
+
+.video-card a {
+    text-decoration: none;
+    color: #a80f54;
+    font-weight: bold;
+}
+.image-song a{
+    color: #f9f9f9;
+}
+
+.video-card a:hover,
+.image-song a:hover {
+     text-decoration: underline;
+}
+
+/* ---------------- TEXT SONGS ---------------- */
+.text-song {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.text-song a{
+    color: #fef8f8;
+}
+
+/* ---------------- FOOTER ---------------- */
+.main-footer {
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(black, #d51b78);
+    color: #ede5e5;
+    font-family: "Merienda", cursive;
+}
+.main-footer p{
+    color: #f9f9f9;
+    font-size: 29px;
+    margin-top: 18px;
+}
+
+
+
+
+
+/*members*/
+/*lisa*/
+body.member{
+   background-image: url("images/blackpink2.jpg");
+    color:#be4f86;
+    background-attachment: fixed;
+    background-size: calc(1090px);
+    box-sizing: border-box;
+     opacity: 100%;
+ }
+ h1.name{
+   background-color: hsl(0, 38%, 97%);
+   color: #0b0b0b;
+   font-size: 100px;
+    text-align: center;
+     font-family: "Creepster", system-ui;
+     margin-top: 10px;
+    margin-bottom: 15px;
+ }
+ nav.lisa{
+   list-style: none;
+    background: #d1c9c9;
+    font-size: 20px;
+ }
+ .section .artist{
+   background-color: #dfd4d4;
+   padding-left: 35px;
+   padding-right: 35px;
+   color: #a00553;
+    font-size: 38px;
+    text-align: center;
+}
+.artist p{
+    color: #9c0752;
+    background-color: #aba4a8;
+    font-size: 29px;
+}
+.member nav ul li a{
+    margin-left: 25px;
+    color: #a00553;
+    line-height: 1.8;
+}
+
+.lisa section img{
+    width: 350px;
+    display: inline;
+    margin-left: 50px;
+} 
+ .sidebar{
+   background: #fefcfc;
+   opacity: 90%;
+}
+            
+ h2.lisa{
+   text-align: center;
+   color: #a00553;
+     font-size: 50px;
+     margin-left: 30px;
+     margin-bottom: 2px;
+     margin-bottom: 15px;
+ }
+header.lisaa{
+   color: #ad0257;
+    font-size: 50px;
+   text-align: center;
+ }
+ .sidebar p{
+    font-size: 26px;
+     font-family: "MedievalSharp", cursive;
+    margin-left: 30px;
+
+ }
+.sidebar p{
+     color: #0d0d0d;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+ }   
+
+
+
+
+  /*jisoo*/
+        .jisoo{
+            background-attachment: fixed;
+            box-sizing: border-box;
+            background-size: contain;
+            margin-top: 15px;
+            margin-bottom: 7px;
+        }
+          .paragraph{ 
+            color: rgb(60, 124, 126);
+            background-color: #f9f9f9;
+            font-size: 30px;
+         }
+        h1{
+            color: rgb(4, 114, 114);
+           background-color:rgb(243, 244, 246);
+            font-size: 80px;
+            text-align: center;
+        }
+         h3.life{
+            color:rgb(3, 110, 110);
+            font-size: 45px;
+            text-align: center;
+        }
+        p.jisoo{
+            background-color: #f7f4f1;
+            text-align: center;
+            color: rgb(4, 139, 139);
+            font-size:40px;
+        }
+        header.hero{
+            text-align: center;
+             color: rgb(2, 121, 121);
+            font-size: 50px;
+        }
+        .section p.jisoo{
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .sidebar p.jisoo{
+            font-family: "Merienda", cursive;
+            margin-top: 30px;
+            margin: 10px;
+          font-size: 25px;
+          color:rgb(9, 9, 9);
+          
+        }
+    
+         .sidebar .jisoo{
+            background: rgb(244, 240, 240);
+            opacity: 90%;
+        }
+        img.jisoo{
+            width: 250px;
+            margin-left: 45px;
+            display: inline;
+
+        }
+        h2.JISOO{
+            color: rgb(14, 13, 14);
+            margin-top: 26px;
+            margin-bottom: 5px;
+        }
+        h2.jisoo{
+            font-family: "Uncial Antiqua", system-ui;
+            font-size: 50px;
+            text-align: center;
+        }
+
+            
+
+
+
+        /*jennie*/
+      .jennie{
+                padding: 4px;
+                margin-top: 8px;
+                margin-bottom: 6px;
+            }
+            h1.kim{
+                color: rgb(6, 6, 6);
+               background-color:rgb(30, 106,109);
+                font-size: 50px;
+                font-family: "Merienda", cursive;
+                text-align: center;
+            }
+            section p.jennie{
+               background-color: rgb(245, 249, 252);
+               padding-left: 30px;
+               padding-right: 30px;
+                font-size: 35px;
+                text-align: center;
+            }
+            .sidebar .jennie{
+               background: rgb(37, 128, 132);
+               opacity: 95%;
+            }
+             .sidebar p.jennie{
+               line-height: 1.6;
+                font-size: 25px;
+                 font-family: "Gluten", cursive;
+                 margin-top: 10px;
+                 text-align: center;
+             }
+             img.jennie{
+                width: 350px;
+                margin-left: 45px;
+                display: inline;
+             }
+             header.jennie{
+               color: rgb(6, 6, 6);
+                font-size: 40px;
+                text-align: center;
+             }
+             h2.jennie{
+                color: #030303;
+                font-size: 50px;
+                text-align: center;
+                font-family: "Rubik Wet Paint", system-ui;
+             }
+            
+             
+        
+
+
+
+   
+   /*rose*/
+       header.rose{
+            background-color: rgb(232, 240, 247);
+            color: purple;
+            font-size:45px;
+            text-align: center;
+            font-family: "Croissant One", serif;
+
+        }
+        .section p.rose{
+            font-size: 25px;
+            text-align: center;
+        }
+        .sidbar .rose{
+            background: aliceblue;
+            opacity: 95%;
+        }
+         p.rose{
+            color: rgb(182, 86, 182);
+            background-color: aliceblue;
+            text-align: center;
+            font-size: 28px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            margin-left: 15px;
+            padding-left: 35px;
+            padding-right: 34px;
+            line-height: 1.5;
+        }
+        img.rose{
+            width: 400px;
+            margin-left: 40px;
+            display: inline;
+        }
+        h1.rose{
+            background-color: aliceblue;
+            font-size: 80px;
+            text-align: center;
+            color:purple;
+            margin-top: 8px;
+            margin-bottom: 15px;
+            font-family: "Croissant One", serif;
+        }
+        h2.rose{
+            color:purple;
+            font-size:48px ;
+            text-align: left;
+            margin-bottom: 10px;
+            margin-bottom: 15px;
+            text-align: center;
+            font-family: "Croissant One", serif;
+        }
+        h3.rose{
+            color:purple;
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 18px;
+            margin-bottom: 20px;
+            font-family: "Croissant One", serif;
+        }
+        h4.rose{
+            color: purple;
+            font-size: 45px;
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            font-family: "Croissant One", serif;
+        }
+         .rose article{
+            color:purple;
+            background-color:#f5f1f1;
+            font-size: 45px;
+            text-align: center;
+            font-family: "Creepster", system-ui;
+        } 
+        div footer .rose {
+            font-size: 20px;
+            color:black;
+            background: linear-gradient(skyblue, rgb(167, 3, 167));
+            font-size: 40px;
+        }   
+        
+        
+
+
+
+   /*contactme*/
+  *{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body.contact{
+  background-image: url("images/blackpink3.jpg");
+  background-size: cover;              
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;                     
+  justify-content: center;           
+  align-items: center;             
+  min-height: 100vh;
+}
+
+ .container{
+  background: rgba(255, 255, 255, 0.85);
+  width: 90%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+
+div.contact{
+  background: linear-gradient(135deg, #d13884, #ff85c1);
+  line-height: 1.8;
+}
+nav.contact{
+     background: linear-gradient( #d13884, #ff85c1);
+     line-height:1.8 ;
+}
+
+
+h1.text{
+  text-align: center;
+  font-size: 36px;
+  color: #322d2d;
+}
+
+p{
+  text-align: center;
+  font-size: 18px;
+  color: #423a3a;
+  margin-bottom: 25px;
+}
+
+/* -------- FORM -------- */
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact .group{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #131313;
+  font-size: 20px;
+}
+.contact input,
+ .contact textarea{
+    padding: 10px 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+textarea{
+    resize: none;
+    height: 120px;
+}
+ button{
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #d13884, #ff85c1);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover{
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+/* -------- FOOTER TEXT -------- */
+.footer-text{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #4a4040;
+}
+
+
+
+
+
+
+
+
+/*signature*/
+body.sign{
+    background-image: url("images/signjisoo.jpg");
+     box-shadow:rgb(239, 23, 23);
+     box-sizing: border-box;
+     background-size:cover contain;
+     background-attachment: fixed;
+}
+h1.inform{
+    font-size: 65px;
+    text-align: center;
+    color: #ce1770 ;
+     font-family: "Merienda", cursive;
+}
+.images{
+    width: 600px;
+    display: block;
+    margin: 20px;
+    border-radius: 15px;
+}
+nav.branches{ 
+    font-size: 20px;
+    line-height: 1.7;
+    background: #f36dae;
+    font-size: 20px;
+    margin-left: 25px;
+    list-style: none;
+}
+p.inform {
+    background-color:#f36dae;
+    margin-bottom: 10px;
+    color: #6d0b3b;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Trade Winds", system-ui;
+}
+h2.endorsement{
+    background-color:#f36dae;
+    color: #6d0b3b;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+     font-family: "Gluten", cursive;
+}
+footer.endorsement{
+    background: linear-gradient(#6d0b3b, #f36dae);
+    color: #030303;
+    font-family: "MedievalSharp", cursive;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
