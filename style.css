@@ -1,6 +1,6 @@
 
 body.page-home {
-     background-image:url('blackpink1.jpg');
+     background-image:url("blackpink1.jpg");
     font-family:'Merienda', cursive;
     background-size: contain;
     background-attachment: fixed;
@@ -168,7 +168,7 @@ body.page-home {
 
 /*music*/
 body.music-page {
-    background-image:url('music.jpg');
+    background-image:url("music.jpg");
     background-size: contain;
     background-attachment: fixed;
 }
@@ -333,7 +333,7 @@ h1.music{
 /*members*/
 /*lisa*/
 body.member{
-   background-image: url('blackpink2.jpg');
+   background-image: url("blackpink2.jpg");
    color: #9c0752;
    background-attachment: fixed;
    background-size: calc(1090px);
@@ -587,15 +587,6 @@ footer.rose p{
 }
 
 
-
-
-
-
-
-        
-
-
-
    /*contactme*/
 body.contact{
   background-image: url("blackpink3.jpg");
@@ -627,8 +618,6 @@ nav.contact{
      background: linear-gradient( #d13884, #ff85c1);
      line-height:1.8 ;
 }
-
-
 h1.text{
   text-align: center;
   font-size: 36px;
@@ -759,4 +748,5 @@ footer.endorsement{
 footer.endorsement p{
      font-size: 42px;
 }
+
 
